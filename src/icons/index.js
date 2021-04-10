@@ -1,0 +1,1 @@
+export { default as arrow_back } from './arrow.png'
