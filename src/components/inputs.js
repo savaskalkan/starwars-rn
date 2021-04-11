@@ -30,7 +30,7 @@ export const Picklist = (props) => {
                 onValueChange={(itemValue, itemIndex) => setSelectedValue(itemValue)}
             >
                 {
-                    lists.map((item, index) => {
+                    lists?.map((item, index) => {
                         return (
                             <Picker.Item key={index} label={item.name} value={item.name} />
                         )

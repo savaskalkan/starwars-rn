@@ -37,7 +37,7 @@ const Form = () => {
                     value={planetName}
                     setSelectedValue={setPlanetName}
                     text={"Planet"}
-                    lists={GeneralResponse.planets}
+                    lists={GeneralResponse?.planets}
                 />
                 <RButton
                     text="Submit"
